@@ -30,7 +30,7 @@ class App extends Component {
       <div className="App">
         <input type="number" onChange={this.handlenum1Change} />
         <input type="number" onChange={this.handlenum2Change} />
-        <button onClick={this.add}> Add</button>
+        <button onClick={this.add}> Sum</button>
         <input type="text" value={this.state.result} />
       </div>
     );
